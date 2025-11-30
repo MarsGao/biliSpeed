@@ -1,9 +1,9 @@
 # Bili调速 (biliSpeed)
 
-[![GitHub stars](https://img.shields.io/github/stars/MarsGao/biliSpeed?style=social)](https://github.com/MarsGao/biliSpeed/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/MarsGao/biliSpeed?style=social)](https://github.com/MarsGao/biliSpeed/network/members)
-[![GitHub release](https://img.shields.io/github/v/release/MarsGao/biliSpeed)](https://github.com/MarsGao/biliSpeed/releases)
-[![License](https://img.shields.io/github/license/MarsGao/biliSpeed)](LICENSE.md)
+[![GitHub stars](https://img.shields.io/github/stars/MarsGao/com.veo.hook.bili.speed?style=social)](https://github.com/MarsGao/com.veo.hook.bili.speed/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/MarsGao/com.veo.hook.bili.speed?style=social)](https://github.com/MarsGao/com.veo.hook.bili.speed/network/members)
+[![GitHub release](https://img.shields.io/github/v/release/MarsGao/com.veo.hook.bili.speed)](https://github.com/MarsGao/com.veo.hook.bili.speed/releases)
+[![License](https://img.shields.io/github/license/MarsGao/com.veo.hook.bili.speed)](LICENSE.md)
 
 Bili默认播放速度调节 - 一个基于Xposed的Android模块，用于调节多个应用的播放速度。
 
@@ -40,7 +40,7 @@ Bili默认播放速度调节 - 一个基于Xposed的Android模块，用于调节
 | Telegram | - | ✅ 不上混淆兼容 | |
 | 微博 Weibo | 14.6.0 | ✅ 理论兼容新老版本 | |
 
-> 📝 **说明**: 本人主要使用的应用均来自 **Google Play**，因此主要考虑适配 Google Play 版本。如需其他版本适配，欢迎提 [Issue](https://github.com/MarsGao/biliSpeed/issues) 反馈！
+> 📝 **说明**: 本人主要使用的应用均来自 **Google Play**，因此主要考虑适配 Google Play 版本。如需其他版本适配，欢迎提 [Issue](https://github.com/MarsGao/com.veo.hook.bili.speed/issues) 反馈！
 
 > 💡 **推特用户推荐**: 如果你使用 Twitter/X，强烈推荐 [crimera/twitter-apk](https://github.com/crimera/twitter-apk) 项目，它提供了基于 Piko patches 的 APK 构建。
 
@@ -64,7 +64,7 @@ Bili默认播放速度调节 - 一个基于Xposed的Android模块，用于调节
 
 ### 方式一：GitHub Releases（推荐）
 
-前往 [Releases](https://github.com/MarsGao/biliSpeed/releases) 页面下载最新版本的 APK。
+前往 [Releases](https://github.com/MarsGao/com.veo.hook.bili.speed/releases) 页面下载最新版本的 APK。
 
 ### 方式二：自行构建
 
@@ -116,7 +116,7 @@ Bili默认播放速度调节 - 一个基于Xposed的Android模块，用于调节
 
 ```bash
 # 克隆项目
-git clone https://github.com/MarsGao/biliSpeed.git
+git clone https://github.com/MarsGao/com.veo.hook.bili.speed.git
 cd biliSpeed
 
 # 构建 Debug 版本
@@ -225,7 +225,7 @@ cd biliSpeed
 
 欢迎提交 Issue 和 Pull Request！
 
-- 🐛 **发现 Bug？** 请提交 [Issue](https://github.com/MarsGao/biliSpeed/issues)
+- 🐛 **发现 Bug？** 请提交 [Issue](https://github.com/MarsGao/com.veo.hook.bili.speed/issues)
 - 💡 **有新想法？** 欢迎讨论和建议
 - 🔧 **想要贡献代码？** 欢迎提交 PR
 
