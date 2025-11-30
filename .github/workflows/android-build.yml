@@ -24,6 +24,18 @@ jobs:
     - name: Set up Android SDK
       uses: android-actions/setup-android@v3
 
+    - name: Generate debug keystore
+      run: |
+        mkdir -p ~/.android
+        keytool -genkey -dname "cn=Android Debug, ou=Android, o=Google, l=Unknown, st=Unknown, c=US" \
+          -keystore ~/.android/debug.keystore \
+          -storepass android \
+          -alias androiddebugkey \
+          -keyalg RSA \
+          -keysize 2048 \
+          -validity 10000 \
+          -keypass android
+
     - name: Cache Gradle packages
       uses: actions/cache@v4
       with:
