@@ -22,7 +22,7 @@ jobs:
         distribution: 'temurin'
 
     - name: Cache Gradle packages
-      uses: actions/cache@v3
+      uses: actions/cache@v4
       with:
         path: |
           ~/.gradle/caches
@@ -56,13 +56,13 @@ jobs:
       if: env.SIGNING_STORE_PASSWORD != ''
 
     - name: Upload debug APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: biliSpeed-debug
         path: app/build/outputs/apk/debug/app-debug.apk
 
     - name: Upload release APK
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: biliSpeed-release
         path: app/build/outputs/apk/release/app-release.apk
